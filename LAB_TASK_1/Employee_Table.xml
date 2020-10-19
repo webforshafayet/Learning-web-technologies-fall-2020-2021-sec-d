@@ -1,0 +1,34 @@
+<employees>
+    <employee>
+        <name>John Carter</name>
+        <address>
+            <flat></flat>
+            <home>38</home>
+            <Road>3</Road>
+            <area>Banani</area>
+            <District>Dhaka</District>
+        </address>
+    </employee>
+
+     <employee>
+        <name>Mark Zuckerberg</name>
+        <address>
+            <flat>A/1</flat>
+            <home>20</home>
+            <Road>18</Road>
+            <area>Mirpur</area>
+            <District>Dhaka</District>
+        </address>
+    </employee>
+
+     <employee>
+        <name>Ala Voski</name>
+        <address>
+            <flat></flat>
+            <home>38</home>
+            <Road>3</Road>
+            <area>Motijheel</area>
+            <District></District>
+        </address>
+    </employee>
+</employees>
