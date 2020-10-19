@@ -1,6 +1,6 @@
 <employees>
     <employee>
-        <name>John Carter</name>
+        <name>John Doe</name>
         <address>
             <flat></flat>
             <home>38</home>
@@ -8,6 +8,8 @@
             <area>Banani</area>
             <District>Dhaka</District>
         </address>
+        <department>sales</department>
+        <salary>20000</salary>
     </employee>
 
      <employee>
@@ -19,6 +21,8 @@
             <area>Mirpur</area>
             <District>Dhaka</District>
         </address>
+        <department>Accounts</department>
+        <salary>12000</salary>
     </employee>
 
      <employee>
@@ -30,5 +34,7 @@
             <area>Motijheel</area>
             <District></District>
         </address>
+        <department>Human Resource</department>
+        <salary>30000</salary>
     </employee>
 </employees>
