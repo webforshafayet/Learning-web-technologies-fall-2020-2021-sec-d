@@ -13,7 +13,8 @@
 				<a href="login.php"><b>Login</b></a> | 
 				<a href="registration.php"><b>Registration</b></a> 
 			</td>
-		</tr>
+		 
+		 </tr>
 		<tr height="200px">
 			<td colspan="3" align="left">
 				<b>Welcome to xCompany</b>
@@ -24,6 +25,7 @@
 				copyright@2020
 			</td>
 		</tr>
-	</table>
-</body>
+	 </table>
+	 
+ </body>
 </html>
