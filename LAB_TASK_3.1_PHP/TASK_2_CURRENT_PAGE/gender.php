@@ -17,7 +17,13 @@
 
 
 <!DOCTYPE html>
+<<<<<<< HEAD
 <head>
+=======
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+>>>>>>> 8d6528a334461bd0bc4166cb3837fade76de95e2
     <title>Gender</title>
 </head>
 <body>
