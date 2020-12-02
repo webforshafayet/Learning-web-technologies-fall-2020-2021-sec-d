@@ -65,9 +65,9 @@
 	}
 
 
-	function deleteUsers($id){
+	function deleteUsers($username){
 		$conn = getConnection();
-		$sql = "delete from employee where id=$id";
+		$sql = "delete from employee where id=$username";
 		$status = mysqli_query($conn, $sql);
 		if($status){
 			return true;
@@ -76,20 +76,15 @@
 		}
 	}
 
-	function updateUsers($id){
+	function updateUsers($username){
 
 		$conn = getConnection();
-		//$sql ="update users set id='{$user['id']}' and username='{$user['username']}' and password='{$user['password']}' and email='{$user['email']}' and type='{$user['type']}' where id='{$user['id']}'";
-		//$sql ="update users set username='$username', password='$password', email='$email', type='$type' WHERE id='$id'";
-		//$sql ="update users set username='$username', password='$password', email='$email', type='$type' WHERE id='$id'";
-
-		$id = $_POST['id'];
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	$email = $_POST['email'];
-	$type = $_POST['type'];
+	$contactNo = $_POST['contactNo'];
+	$employeeName = $_POST['employeeName'];
 
-	$sql ="update employee set username='$username', password='$password', email='$email', type='$type' WHERE id='$id'";
+	$sql ="update employee set username='$username', password='$password', contactNo=' employeeName', type='employeeName' WHERE username='$username'";
 	$result = mysqli_query($conn, $sql);
 		
 

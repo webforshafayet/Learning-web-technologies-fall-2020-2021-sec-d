@@ -1,6 +1,11 @@
 <?php
 require_once('../models/usersService.php');
 if(isset($_REQUEST['submit'])){
+
+    if(empty($employeeName) || empty($username) || empty($contactNo) || empty($password)){
+        //echo "null submission";
+        header('location: ../view/login.php?msg=null');
+    }else{
         $employeeName = $_REQUEST['employeeName'];
          
         $contactNo = $_REQUEST['contactNo'];
@@ -18,7 +23,7 @@ $user = [
 ];
 
 insertUsers($user);
-}
+}}
 
  
 	 
@@ -39,7 +44,8 @@ insertUsers($user);
 				
 				<tr>
 					<td>employeeName</td>
-					<td><input type="text" name="employeeName"></td>
+                    <td><input type="text" name="employeeName"></td>
+                    
 				</tr>
 				<tr>
 					<td>contactNo</td>
