@@ -10,8 +10,7 @@
 </head>
 <body>
 	<h1>Welcome Home! </h1>
-	<a href="profile.php">Profile</a> |
-	<a href="create.php">Create New User</a> |
+	<a href="register.php">register user</a> |
 	<a href="userlist.php">User List</a> |
 	<a href="../php/logout.php">logout</a>
 </body>
