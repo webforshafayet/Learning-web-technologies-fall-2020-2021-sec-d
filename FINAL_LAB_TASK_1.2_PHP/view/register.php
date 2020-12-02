@@ -38,11 +38,15 @@ insertUsers($user);
 			<table>
 				
 				<tr>
-					<td>Id</td>
-					<td><input type="text" name="id"></td>
+					<td>employeeName</td>
+					<td><input type="text" name="employeeName"></td>
 				</tr>
 				<tr>
-					<td>Username</td>
+					<td>contactNo</td>
+					<td><input type="text" name="contactNo"></td>
+                </tr>
+                <tr>
+					<td>username</td>
 					<td><input type="text" name="username"></td>
 				</tr>
 				<tr>
@@ -50,23 +54,12 @@ insertUsers($user);
 					<td><input type="password" name="password"></td>
 				</tr>
 				
-				<tr>
-					<td>Email</td>
-					<td><input type="text" name="email"></td>
-				</tr>
-				<tr>
-					<td>Type</td>
-					<td><select name="type" >
-				    <option value="user" selected>User</option>
-				    <option value="admin">Admin</option>
-                    <option value="student">Student</option>
-			        </select> <br></td>
-				</tr>
+				
 				<tr><td></td><td><hr><hr></td></tr>
 				<tr>
 					<td></td>
                     <td><input type="submit" name="submit" value="Add"></td>
-                    <a href="userlist.php">User List</a> |
+                   
 				</tr>
 			</table>
 		</fieldset>
