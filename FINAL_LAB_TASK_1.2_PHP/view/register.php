@@ -1,10 +1,11 @@
 <?php
+require_once('../php/header.php');
 require_once('../models/usersService.php');
 if(isset($_REQUEST['submit'])){
 
     if(empty($employeeName) || empty($username) || empty($contactNo) || empty($password)){
-        //echo "null submission";
-        header('location: ../view/login.php?msg=null');
+        echo "null submission";
+         
     }else{
         $employeeName = $_REQUEST['employeeName'];
          
