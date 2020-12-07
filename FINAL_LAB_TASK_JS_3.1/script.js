@@ -16,7 +16,11 @@ function f1(){
 	let data= document.getElementById('name').value;
 	if(data == ''){
 		document.getElementById('head').innerHTML = 'invalid data';		
-	}else{
+    }
+    else if(data.length <2){
+		document.getElementById('head').innerHTML = 'input atleast two words ';	
+	}
+    else{
         document.getElementById('head').innerHTML = data;
         
     }
