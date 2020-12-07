@@ -63,7 +63,8 @@ function f3(){
 //date of birth
 
 function f4(){
-	let data= document.getElementById('name').value;
+    let data= document.getElementById('name').value;
+    
 	if(data == ''){
 		document.getElementById('head').innerHTML = 'invalid data';		
 	}else{
