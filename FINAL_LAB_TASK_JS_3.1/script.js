@@ -22,11 +22,12 @@ function f1(){
     }
     
  
-//emailllll  
+ 
 
 
 }
 
+//emailllll  
 function f2(){
 	let data= document.getElementById('name').value;
 	if(data == ''){
@@ -37,5 +38,34 @@ function f2(){
     }
     
  
+
+}
+
+//gender
+
+function f3(){
+	let data= document.getElementById('name').value;
+	if(data == ''){
+		document.getElementById('head').innerHTML = 'Click at least on item';		
+	}else{
+        document.getElementById('head').innerHTML = data;
+        
+    }
+    
+ 
+
+}
+
+//date of birth
+
+function f4(){
+	let data= document.getElementById('name').value;
+	if(data == ''){
+		document.getElementById('head').innerHTML = 'invalid data';		
+	}else{
+        document.getElementById('head').innerHTML = data;
+        
+    }
+
 
 }

@@ -5,24 +5,28 @@
     <title>HTML Form - Date of Birth</title>
 </head>
 <body>
+
+    <h1 id="head">JS EXample</h1>
     
     <form>
         
         <fieldset style="width:200px">
             
             <legend><b>Date of Birth</b></legend>
+
             <pre>  dd      mm     yyyy</pre>
-            <input type="tel" name="dob" size="1"><b> /</b>
-              <input type="tel" name="dob" size="1"><b> /</b>
-              <input type="tel" name="dob" size="2">
+            <input type="tel" id="name" name="dob" size="1" onkeyup="f4()" ><b> /</b>
+              <input type="tel" id="name" name="dob" size="1" onkeyup="f4()"><b> /</b>
+              <input type="tel" id="name" name="dob" size="2" onkeyup="f4()">
                <hr>
                 
-        <input type="submit" value="Submit">
+        <input type="button" name="button" value="Click" onclick="f4()">
         </fieldset>
         
         
         
     </form>
+    <script type="text/javascript" src="../script.js"></script>
     
 </body>
 </html>
